@@ -1,0 +1,17 @@
+.add-clock {
+	display: flex;
+	flex-shrink: 1;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 25px;
+	margin-bottom: 50px;
+}
+.add-clock__field {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 200px;
+}
+.add-clock__field span{
+	padding-left: 20px;
+}

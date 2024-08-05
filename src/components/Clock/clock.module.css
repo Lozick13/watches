@@ -1,0 +1,63 @@
+.clock {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+.clock__delete{
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+.clock__body {
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.clock__arrow {
+	position: absolute;
+	left: 50%;
+	transition: 0.1s;
+	height: 100%;
+}
+
+.clock__arrow_hour {
+	transform: translateX(-1px);
+	rotate: 0deg;
+}
+.clock__arrow_hour::before {
+	position: absolute;
+	top: 25%;
+	background: #000;
+	width: 3px;
+	height: 25%;
+	content: '';
+}
+
+.clock__arrow_min {
+	rotate: 0deg;
+}
+.clock__arrow_min::before {
+	position: absolute;
+	top: 15%;
+	background: #000;
+	width: 1px;
+	height: 35%;
+	content: '';
+}
+
+.clock__arrow_sec {
+	rotate: 0deg;
+}
+.clock__arrow_sec::before {
+	position: absolute;
+	top: 10%;
+	background: #ff8787;
+	width: 1px;
+	height: 40%;
+	content: '';
+}

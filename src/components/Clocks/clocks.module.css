@@ -1,0 +1,7 @@
+.clocks{
+	width: 550px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 30px;
+}

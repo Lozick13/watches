@@ -1,0 +1,7 @@
+.base-button{
+	cursor: pointer;
+	background: #fff;
+	border: solid 1px #000;
+	padding: 10px;
+	font-size: 16px;
+}
